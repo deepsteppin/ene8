@@ -21,7 +21,7 @@ Este repositorio contiene una configuración lista para desplegar una instancia 
 Clona este repositorio y navega al directorio:
 
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/deepsteppin/ene8.git
 cd tu-repo
 ```
 
@@ -84,19 +84,13 @@ El archivo `.env` es fundamental para proporcionar credenciales y configuracione
 
 ### **Cómo asegurarte de que el archivo `.env` sea detectado**
 1. Coloca el archivo `.env` en el mismo directorio que `docker-compose.yml`.
-2. No es necesario especificar manualmente el archivo `.env` en la mayoría de los casos. However, si deseas indicar un archivo diferente, puedes usar la bandera `--env-file`:
+2. No es necesario especificar manualmente el archivo `.env` en la mayoría de los casos. Sin embargo, si deseas indicar un archivo diferente, puedes usar la bandera `--env-file`:
 
 ```bash
 docker-compose --env-file custom.env up -d
 ```
 
 ### **Protección del archivo `.env`**
-Es importante proteger las credenciales almacenadas en el archivo `.env`. Asegúrate de:
-* **Nunca subir el archivo `.env` al repositorio. Agrega `.env` al archivo `.gitignore`:**
-
-```gitignore
-.env
-```
 
 * Establecer permisos restrictivos para el archivo:
 
