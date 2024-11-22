@@ -1,0 +1,12 @@
+# PostgreSQL configuration
+POSTGRES_USER=example_user        # Usuario de la base de datos PostgreSQL
+POSTGRES_PASSWORD=example_password # Contraseña para el usuario de PostgreSQL
+POSTGRES_DB=example_db            # Nombre de la base de datos PostgreSQL
+
+# n8n configuration
+N8N_EMAIL=example_email@example.com  # Correo electrónico para autenticación básica de n8n
+N8N_PASSWORD=example_password        # Contraseña para autenticación básica de n8n
+N8N_HOST=0.0.0.0                    # Dirección de host para n8n (puedes cambiarla según tus necesidades)
+
+# WireGuard configuration
+PEERS=1                             # Número de usuarios para configurar en WireGuard
